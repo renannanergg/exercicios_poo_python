@@ -3,9 +3,9 @@ from moto import Moto
 
 
 #Instanciando Objetos
-carro1=Carro('Jeep','Compass',4)
-carro2=Carro('Honda','Fit',5)
-carro3 = Carro("Ford", "Fusion", 4)
+carro1=Carro('Jeep','Compass',cor='Branco Perolado',portas=4)
+carro2=Carro('Honda','Fit',cor='Prata',portas=5)
+carro3 = Carro("Ford", "Fusion",cor='Preto',portas=4)
 
 moto1=Moto('Honda','CB300F','Esportivo')
 moto2 = Moto("Honda", "CB 500", "Casual")
